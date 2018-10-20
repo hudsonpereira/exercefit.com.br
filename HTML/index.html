@@ -1,20 +1,9 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Aironepage" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
 <html lang="en" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title>Metronic "Aironepage" Frontend Freebie</title>
+        <title>Exercefit Cursos</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="description"/>
@@ -34,7 +23,7 @@
         <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="shortcut icon" href="favicon.png"/>
     </head>
     <!-- END HEAD -->
 
@@ -68,11 +57,11 @@
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">Products</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#service">Service</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">Cursos</a></li>
+                                <!-- <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#service">Service</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">Pricing</a></li> -->
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contato</a></li>
                             </ul>
                         </div>
                     </div>
@@ -87,10 +76,10 @@
         <div class="promo-block">
             <div class="container">
                 <div class="margin-b-40">
-                    <h1 class="promo-block-title">Digital Product Agency.</h1>
-                    <p class="promo-block-text">Look no further. You came to the right ... place</p>
+                    <h1 class="promo-block-title">Exercefit Cursos</h1>
+                    <p class="promo-block-text">Pare de procurar. Você veio ao lugar certo!</p>
                 </div>
-                <a class="js_popup-youtube btn-theme btn-theme-md btn-white-bg text-uppercase" href="https://www.youtube.com/watch?v=0qisGSwZym4" title="Intro Video"><i class="btn-icon icon-control-play"></i> Watch Intro Video</a>
+                <!-- <a class="js_popup-youtube btn-theme btn-theme-md btn-white-bg text-uppercase" href="https://www.youtube.com/watch?v=0qisGSwZym4" title="Intro Video"><i class="btn-icon icon-control-play"></i> Watch Intro Video</a> -->
             </div>
         </div>
         <!--========== SLIDER ==========-->
@@ -101,8 +90,8 @@
             <div class="container content-lg">
                 <div class="row text-center margin-b-40">
                     <div class="col-sm-6 col-sm-offset-3">
-                        <h2>Latest Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                        <h2>Cursos com incrições abertas</h2>
+                        <p>Aqui você encontra os cursos com inscrições abertas. Clique para se inscrever.</p>
                     </div>
                 </div>
                 <!--// end row -->
@@ -111,40 +100,60 @@
                     <!-- Latest Products -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/01.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive wow fadeIn" src="cursos/nutricao_e_suplementacao_aplicadas.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
                         </div>
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Workspace</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
+                        <h4><a href="#">Curso de Nutrição e Suplementação Aplicadas à Hipertrofia Muscular e Emagrecimento</a> <span class="text-uppercase margin-l-20">Nutrição</span></h4>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
+
+                        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+                        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                        <input type="hidden" name="itemCode" value="C881BFC53636099BB4E6CF8F0138F6A1" />
+                        <input type="hidden" name="iot" value="button" />
+                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                        </form>
+                        <!-- FINAL FORMULARIO BOTAO PAGSEGURO → -->
+                        <!-- <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Faça sua inscrição</a> -->
                     </div>
                     <!-- End Latest Products -->
 
                     <!-- Latest Products -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/02.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".2s">
+                            <img class="img-responsive wow fadeIn" src="cursos/nutricao_e_suplementacao_aplicadas.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
                         </div>
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Minimalism</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
+                        <h4><a href="#">Curso de Nutrição e Suplementação Aplicadas à Hipertrofia Muscular e Emagrecimento</a> <span class="text-uppercase margin-l-20">Nutrição</span></h4>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
+                        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+                        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                        <input type="hidden" name="itemCode" value="C881BFC53636099BB4E6CF8F0138F6A1" />
+                        <input type="hidden" name="iot" value="button" />
+                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                        </form>
                     </div>
                     <!-- End Latest Products -->
 
                     <!-- Latest Products -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/03.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".3s">
+                            <img class="img-responsive wow fadeIn" src="cursos/nutricao_e_suplementacao_aplicadas.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
                         </div>
-                        <h4><a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Cleant Style</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                        <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Read More</a>
-                    </div>
-                    <!-- End Latest Products -->
+                        <h4><a href="#">Curso de Nutrição e Suplementação Aplicadas à Hipertrofia Muscular e Emagrecimento</a> <span class="text-uppercase margin-l-20">Nutrição</span></h4>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
+
+                        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                        <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+                        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                        <input type="hidden" name="itemCode" value="C881BFC53636099BB4E6CF8F0138F6A1" />
+                        <input type="hidden" name="iot" value="button" />
+                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                        </form>
                 </div>
                 <!--// end row -->
             </div>
 
-            <div class="container-full-width">
+            <!-- <div class="container-full-width">
                 <div class="row row-space-2">
                     <div class="col-sm-6 sm-margin-b-4">
                         <img class="img-responsive" src="img/970x647/01.jpg" alt="Image">
@@ -153,13 +162,12 @@
                         <img class="img-responsive" src="img/970x647/03.jpg" alt="Image">
                     </div>
                 </div>
-                <!--// end row -->
             </div>
-        </div>
+        </div> -->
         <!-- End Products -->
 
         <!-- Service -->
-        <div id="service">
+        <!-- <div id="service">
             <div class="bg-color-sky-light" data-auto-height="true">
                 <div class="content-lg container">
                     <div class="row row-space-2 margin-b-4">
@@ -172,7 +180,7 @@
                                     <h3>Art Of Coding</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>
                             </div>
                         </div>
                         <div class="col-sm-4 sm-margin-b-4">
@@ -184,7 +192,7 @@
                                     <h3 class="color-white">Responsive Design</h3>
                                     <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -196,11 +204,10 @@
                                     <h3>Feature Reach</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
-                    <!--// end row -->
 
                     <div class="row row-space-2">
                         <div class="col-sm-4 sm-margin-b-4">
@@ -212,7 +219,7 @@
                                     <h3>Useful Documentation</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>
                             </div>
                         </div>
                         <div class="col-sm-4 sm-margin-b-4">
@@ -224,7 +231,7 @@
                                     <h3>Fast Delivery</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -236,33 +243,32 @@
                                     <h3>Free Plugins</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
-                    <!--// end row -->
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Service -->
 
         <!-- Promo Banner -->
-        <div class="promo-banner">
+        <!-- <div class="promo-banner">
             <div class="container-sm content-lg">
                 <h2 class="promo-banner-title">Displaying the Result</h2>
                 <p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
             </div>
-        </div>
+        </div> -->
         <!-- End Promo Banner -->
 
         <!-- Work -->
-        <div id="work">
+       <!--  <div id="work">
             <div class="content-md container">
-                <!-- Masonry Grid -->
+
                 <div class="masonry-grid row row-space-2">
                     <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                        <!-- Work -->
+
                         <div class="work work-popup-trigger">
                             <div class="work-overlay">
                                 <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
@@ -298,10 +304,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Work -->
+
                     </div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                        <!-- Work -->
+
                         <div class="work work-popup-trigger">
                             <div class="work-overlay">
                                 <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
@@ -337,10 +343,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Work -->
+
                     </div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                        <!-- Work -->
+
                         <div class="work work-popup-trigger">
                             <div class="work-overlay">
                                 <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
@@ -376,10 +382,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Work -->
+
                     </div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                        <!-- Work -->
+
                         <div class="work work-popup-trigger">
                             <div class="work-overlay">
                                 <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
@@ -415,10 +421,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Work -->
+
                     </div>
                     <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                        <!-- Work -->
+
                         <div class="work work-popup-trigger">
                             <div class="work-overlay">
                                 <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
@@ -454,21 +460,21 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Work -->
+
                     </div>
                 </div>
-                <!-- End Masonry Grid -->
+
             </div>
-        </div>
+        </div> -->
         <!-- End Work -->
 
         <!-- Pricing -->
-        <div id="pricing">
+        <!-- <div id="pricing">
             <div class="bg-color-sky-light">
                 <div class="content-lg container">
                     <div class="row row-space-2">
                         <div class="col-sm-4 sm-margin-b-4">
-                            <!-- Pricing -->
+
                             <div class="pricing">
                                 <div class="margin-b-30">
                                     <i class="pricing-icon icon-chemistry"></i>
@@ -482,10 +488,8 @@
                                 </ul>
                                 <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
                             </div>
-                            <!-- End Pricing -->
                         </div>
                         <div class="col-sm-4 sm-margin-b-4">
-                            <!-- Pricing -->
                             <div class="pricing pricing-active">
                                 <div class="margin-b-30">
                                     <i class="pricing-icon icon-badge"></i>
@@ -499,10 +503,8 @@
                                 </ul>
                                 <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
                             </div>
-                            <!-- End Pricing -->
                         </div>
                         <div class="col-sm-4">
-                            <!-- Pricing -->
                             <div class="pricing">
                                 <div class="margin-b-30">
                                     <i class="pricing-icon icon-shield"></i>
@@ -516,20 +518,18 @@
                                 </ul>
                                 <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
                             </div>
-                            <!-- End Pricing -->
                         </div>
                     </div>
-                    <!--// end row -->
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Pricing -->
 
         <!-- Testimonials -->
         <div class="content-md container">
             <div class="row">
                 <div class="col-sm-9">
-                    <h2>Customer Reviews</h2>
+                    <h2>Depoimento de Clientes</h2>
 
                     <!-- Swiper Testimonials -->
                     <div class="swiper-slider swiper-testimonials">
@@ -538,23 +538,23 @@
                             <div class="swiper-slide">
                                 <blockquote class="blockquote">
                                     <div class="margin-b-20">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
+                                        A Exercefit tem os melhores cursos de Bauru e região!
                                     </div>
                                     <div class="margin-b-20">
-                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua.
+                                        Com certeza o melhor!
                                     </div>
-                                    <p><span class="fweight-700 color-link">Joh Milner</span>, Metronic Customer</p>
+                                    <p><span class="fweight-700 color-link">Paulo Vitor</span>, Professor de Ed. Física</p>
                                 </blockquote>
                             </div>
                             <div class="swiper-slide">
                                 <blockquote class="blockquote">
                                     <div class="margin-b-20">
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        Nunca vi nada igual!
                                     </div>
                                     <div class="margin-b-20">
-                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Isso é 100% disruptivo. Facilita muito mais a participação do aluno à eventos.
                                     </div>
-                                    <p><span class="fweight-700 color-link">Alex Clarson</span>, Metronic Customer</p>
+                                    <p><span class="fweight-700 color-link">Arnold Schwarzenegger</span>, Ator e Body Builder</p>
                                 </blockquote>
                             </div>
                         </div>
@@ -569,7 +569,7 @@
             <!--// end row -->
         </div>
         <!-- End Testimonials -->
-            
+
         <!-- Contact -->
         <div id="contact">
             <!-- Google Map -->
@@ -586,43 +586,36 @@
 
         <!--========== FOOTER ==========-->
         <footer class="footer">
-            <!-- Links -->
-            <div class="section-seperator">
+
+            <!-- <div class="section-seperator">
                 <div class="content-md container">
                     <div class="row">
                         <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Home</a></li>
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">About</a></li>
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Work</a></li>
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Contact</a></li>
                             </ul>
-                            <!-- End List -->
                         </div>
                         <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Twitter</a></li>
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Facebook</a></li>
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Instagram</a></li>
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">YouTube</a></li>
                             </ul>
-                            <!-- End List -->
                         </div>
                         <div class="col-sm-3">
-                            <!-- List -->
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Subscribe to Our Newsletter</a></li>
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Privacy Policy</a></li>
                                 <li class="footer-list-item"><a href="http://keenthemes.com/">Terms &amp; Conditions</a></li>
                             </ul>
-                            <!-- End List -->
                         </div>
                     </div>
-                    <!--// end row -->
                 </div>
-            </div>
+            </div> -->
             <!-- End Links -->
 
             <!-- Copyright -->
@@ -642,7 +635,7 @@
         <!--========== END FOOTER ==========-->
 
         <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Topo</a>
 
         <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
         <!-- CORE PLUGINS -->
