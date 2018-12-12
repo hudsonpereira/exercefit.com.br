@@ -106,28 +106,11 @@
                 </div>
                 <!--// end row -->
 
+                <!-- Inscrições abertas -->
                 <div class="row">
-                    <!-- Latest Products -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="cursos/nutricao_e_suplementacao_aplicadas_terceiro_lote.jpeg" alt="Curso de Nutrição e Suplementação Aplicadas à Hipertrofia Muscular e Emagrecimento" data-wow-duration=".3" data-wow-delay=".1s">
-                        </div>
-                        <h4><a href="#">Curso de Nutrição e Suplementação Aplicadas à Hipertrofia Muscular e Emagrecimento</a> <span class="text-uppercase margin-l-20">Nutrição</span></h4>
-
-                        <div class="text-center">
-                            <!-- <a href="https://pag.ae/7UeAkzyb1"> -->
-                            <a href="http://pag.ae/7Um42d5Vm">
-                                <img src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar-laranja.gif" alt="">
-                            </a>
-                        </div>
-                        <!-- <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Faça sua inscrição</a> -->
-                    </div>
-                    <!-- End Latest Products -->
-
-                    <!-- Latest Products -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="cursos/psicologia-em-cirurgia-bariatrica.jpeg" alt="Curso" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive wow fadeIn" src="cursos/psicologia-em-cirurgia-bariatrica.jpg" alt="Curso" data-wow-duration=".3" data-wow-delay=".1s">
                         </div>
                         <h4><a href="#">Curso de Psicologia em Cirurgia Bariátrica e Transtornos Alimentares</a> <span class="text-uppercase margin-l-20">Psicologia</span></h4>
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
@@ -138,7 +121,6 @@
                             </a>
                         </div>
                     </div>
-                <!--// end row -->
             </div>
 
             <div id="past-products">
@@ -152,7 +134,19 @@
                     <!--// end row -->
 
                     <div class="row">
-                        <!-- Latest Products -->
+                        <div class="col-sm-4 sm-margin-b-50">
+                            <div class="margin-b-20">
+                                <img class="img-responsive wow fadeIn nutricaoESuplementacaoGallery galleryOpener" src="cursos/nutricao_e_suplementacao_aplicadas_terceiro_lote.jpeg" alt="Curso de Nutrição e Suplementação Aplicadas à Hipertrofia Muscular e Emagrecimento" data-wow-duration=".3" data-wow-delay=".1s">
+                            </div>
+                            <h4><a href="#">Curso de Nutrição e Suplementação Aplicadas à Hipertrofia Muscular e Emagrecimento</a> <span class="text-uppercase margin-l-20">Nutrição</span></h4>
+
+                            <div class="text-center">
+                                <!-- <a href="https://pag.ae/7UeAkzyb1"> -->
+                                <button class="btn btn-primary btn-large nutricaoESuplementacaoGallery"><i class="service-icon color-white icon-picture"></i> Ver fotos</button>
+                            </div>
+                            <!-- <a class="link" href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Faça sua inscrição</a> -->
+                        </div>
+
                         <div class="col-sm-4 sm-margin-b-50">
                             <div class="margin-b-20">
                                 <img class="img-responsive wow fadeIn basesGallery galleryOpener" src="cursos/bases_cientificas_de_treinamento_de_hipertrofia.jpg" alt="Bases Científicas do Treinamento de Hipertrofia" data-wow-duration=".3" data-wow-delay=".1s">
@@ -710,6 +704,17 @@
 
         <script>
             $(function() {
+                $('.nutricaoESuplementacaoGallery').click(function() {
+                    SimpleLightbox.open({
+                        items: [
+                            'cursos/nutricao_e_suplementacao_aplicadas/1.jpg',
+                            'cursos/nutricao_e_suplementacao_aplicadas/2.jpg',
+                            'cursos/nutricao_e_suplementacao_aplicadas/3.jpg',
+                            'cursos/nutricao_e_suplementacao_aplicadas/4.jpg',
+                        ]
+                    });
+                });
+
                 $('.biomecanicaGallery').click(function() {
                     SimpleLightbox.open({
                         items: [
